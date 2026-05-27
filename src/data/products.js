@@ -72,7 +72,7 @@ const products = [
     {
         id: 4,
         name: "ED-CORNEY",
-        category: "Sudaderas",
+        category: "Playeras",
         description: "Sudadera con gorro sin cierre, El tejido de alta densidad y suave por dentro, permite que el exterior no afecte, su TECNOLOGÍA logra mantenerte fresco mientras ESTÉ en uso. corte oversized, Cuello con capucha ajustable y manga larga, Bolsillo frontal tipo canguro, cuenta con bordado de la marca  en la parte frontal. Estampado- inspirado classic en la espalda.",
         code: "at6ed3-170",
         color: "gris / gaspe",
