@@ -10,7 +10,7 @@ export default function HeroSection() {
                 playsInline
                 className="hero-video"
             >
-                <source src="../../public/video/viltrumite.mp4" type="video/mp4" />
+                <source src="../../public/video/Viltrumite.mp4" type="video/mp4" />
             </video>
 
             <div className="hero-overlay">
