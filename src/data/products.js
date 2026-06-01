@@ -23,8 +23,9 @@ const products = [
         color: "NEGRO / GASPE",
         price: "$599",
         images: [
-            "/images/ramon/ramon.jpg",
-            "/images/ramon/ramon_2.jpg"
+            "/images/ramon/ramon_1.jpg",
+            "/images/ramon/ramon_2.jpg", 
+            "/images/ramon/ramon_3.jpg"
         ]
     },
 

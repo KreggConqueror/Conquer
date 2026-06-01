@@ -1,16 +1,111 @@
-# React + Vite
+# CONQUER
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Sitio web desarrollado con React + Vite para la marca de ropa **CONQUER**.
 
-Currently, two official plugins are available:
+El proyecto está enfocado en mostrar productos de diferentes categorías como sudaderas, ropa deportiva, prendas para hombre y mujer, con una experiencia visual moderna y totalmente responsiva.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## Tecnologías utilizadas
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+* React
+* Vite
+* React Router DOM
+* JavaScript (ES6+)
+* CSS3
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Estado actual del proyecto
+
+### Estructura base
+
+* Proyecto creado con Vite.
+* React Router configurado.
+* Navegación SPA funcional.
+* Layout principal implementado.
+* Página 404 implementada.
+* Footer implementado.
+* Organización modular de componentes.
+
+---
+
+## Rutas disponibles
+
+| Ruta     | Descripción           |
+| -------- | --------------------- |
+| /        | Página principal      |
+| /hoodies | Catálogo de sudaderas |
+| /men     | Catálogo para hombre  |
+| /women   | Catálogo para mujer   |
+| /contact | Página de contacto    |
+| *        | Página 404            |
+
+---
+
+## Estructura del proyecto
+
+```
+src/
+│
+├── components/
+├── css/
+├── data/
+├── layouts/
+├── pages/
+├── router/
+│
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+---
+
+## Componentes actuales
+
+### Navbar
+
+Componente encargado de la navegación principal del sitio.
+
+### Footer
+
+Componente persistente para enlaces e información de la marca.
+
+### ProductCard
+
+Tarjeta utilizada para mostrar información de productos.
+
+---
+
+## Próximas funcionalidades
+
+### Home
+
+* Hero con video fullscreen.
+* Sección de novedades.
+* Carrusel de productos.
+* Banner promocional.
+* Sección "Sobre Nosotros".
+
+### Catálogo
+
+* Sudaderas.
+* Hombre.
+* Mujer.
+* Ropa deportiva.
+
+### Funcionalidades
+
+* Búsqueda de productos.
+* Favoritos.
+* Carrito de compras.
+* Hover entre imágenes de productos.
+* Carruseles interactivos.
+* Formularios de contacto.
+
+---
+
+## Objetivo del proyecto
+
+Crear una experiencia moderna para la marca CONQUER enfocada en rendimiento, diseño minimalista y una identidad visual inspirada en disciplina, entrenamiento y estilo de vida deportivo.

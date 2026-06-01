@@ -1,18 +1,7 @@
-import "./App.css";
-import Footer from "./components/Footer";
-import HeroSection from "./components/HeroSection";
-import ProductGrid from "./components/ProductGrid";
+import AppRouter from "./router/AppRouter";
 
 function App() {
-  return (
-    <>
-      <main>
-        <HeroSection />
-        <ProductGrid />
-        <Footer />
-      </main>
-    </>
-  );
+  return <AppRouter />;
 }
 
 export default App;
