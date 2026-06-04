@@ -151,16 +151,34 @@ const products = [
     },*/
 
     {
+    id: 8,
+    name: "MIKE MENTZER",
+    category: "Sudaderas",
+    collection: [""],
+    featured: true,
+    isNew: true,
+    description: "Sudadera con gorro sin cierre, Conoce a tu nueva sudadera con gorro favorita. El tejido Fleece de alta densidad se siente supersuave por dentro pero su tecnologia logra mantenerte fresco mientras este en uso para clima caluroso o en un lugar frio, el ajuste cómodo y relajado te hará lograr todo lo que deseas,  corte oversized exacto, Cuello con capucha ajustable y manga larga. Bolsillo frontal tipo canguro, cuenta con un bordado enfrente y exclusivo en manga de la linea.  estampado- inspirado classic en la espalda.",
+    code: "AB1201-326",
+    colors: ["MARRON / VINADO"],
+    sizes: ["Unitalla"],
+    price: 599,
+    images: [
+        "/images/mike/mike_3.jpg",
+        "/images/mike/mike_1.jpg",
+        "/images/mike/mike_2.jpg"
+        ]
+    }, 
+    {
     id: 10,
     name: "PRIME EDITION",
     category: "Sudaderas",
-    collection: ["Hombre","Mujer"],
+    collection: [""],
     featured: true,
     isNew: true,
     description: "Sudadera con gorro sin cierre, la primera edicion, cuenta con tela suave y afelpada interna (50%) para comodidad, a pesar que es color negra  lograr todo lo que deseas, mantiene el cuerpo fresco y comoda sin importar el clima.  corte oversized exacto, Cuello con capucha ajustable y manga larga. Bolsillo frontal tipo canguro, cuenta con un bordado enfrente de la marca y estampado en la espalda, parte inferior derecha. estampado- inspirado classic.",
     code: "AB1201-326",
-    colors: ["NEGRO","BLANCO"],
-    sizes: ["S","M","L","XL"],
+    colors: ["NEGRO / BLANCO"],
+    sizes: ["Unitalla"],
     price: 599,
     images: [
         "/images/prime/prime_1.jpg",
@@ -177,8 +195,8 @@ const products = [
     featured: true,
     isNew: true,
     description: "",
-    code: "AB1201-326",
-    colors: [],
+    code: "",
+    colors: ["BLANCO / ROJO"],
     sizes: ["S","M","L","XL"],
     price: 680,
     images: [
@@ -191,14 +209,14 @@ const products = [
     id: 13,
     name: "Long-Sleeve-Thragg",
     category: "Sudaderas",
-    collection: ["Hombre","Mujer"],
+    collection: ["Hombre"],
     featured: true,
     isNew: true,
     description:"",
-    code: "AB1201-326",
-    colors: ["NEGRO","BLANCO"],
+    code: "",
+    colors: ["BLANCO / ROJO"],
     sizes: ["S","M","L","XL"],
-    price: 599,
+    price: 500,
     images: [
         "/images/Playeras/Thragg/Larga/Frente_1.webp",
         "/images/Playeras/Thragg/Larga/Tras_1.webp",

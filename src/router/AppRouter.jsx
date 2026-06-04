@@ -8,6 +8,7 @@ import Gym from "../pages/Gym";
 import Contact from "../pages/Contact";
 import NotFound from "../pages/NotFound";
 import ProductDetail from "../pages/ProductDetail";
+import Cart from "../pages/Cart";
 
 export default function AppRouter() {
     return (
@@ -21,8 +22,8 @@ export default function AppRouter() {
                     <Route path="/gym" element={<Gym />} />
                     <Route path="/product/:id" element={<ProductDetail />} />
                     <Route path="/contact" element={<Contact />} />
+                    <Route path="/cart" element={<Cart />} />
                 </Route>
-
                 <Route path="*" element={<NotFound />} />
             </Routes>
         </BrowserRouter>

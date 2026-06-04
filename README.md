@@ -68,7 +68,7 @@ Se utiliza React Router para manejar la navegación entre pantallas.
 | /gym         | Ropa deportiva        |
 | /contact     | Contacto              |
 | /product/:id | Detalle de producto   |
-| /*           | Página 404            |
+| /*          | Página 404            |
 
 ---
 
@@ -378,3 +378,106 @@ Por esta razón actualmente no se maneja inventario ni stock.
 # Objetivo del Proyecto
 
 Crear una plataforma moderna para la marca CONQUER que combine diseño minimalista, rendimiento y una experiencia de compra sencilla mediante pedidos directos por WhatsApp.
+
+### Product Detail
+
+Se implementó la página individual de producto.
+
+Ruta:
+
+/product/:id
+
+Características:
+
+- Galería de imágenes.
+- Imagen principal dinámica.
+- Selector de colores.
+- Selector de tallas.
+- Vista previa de selección.
+- Información completa del producto.
+- Diseño responsive.
+- Navegación dinámica mediante React Router.
+
+Componentes involucrados:
+
+- ProductDetail.jsx
+- ProductDetail.css
+
+Preparado para:
+
+- Integración con carrito.
+- Pedido mediante WhatsApp.
+- Productos relacionados.
+- Zoom de imágenes.
+
+### Carrito de Compras
+
+Se implementó un sistema global de carrito utilizando React Context API.
+
+Archivos:
+
+- CartContext.jsx
+- Cart.jsx
+
+Características actuales:
+
+- Agregar productos al carrito.
+- Guardar color seleccionado.
+- Guardar talla seleccionada.
+- Almacenamiento global mediante Context API.
+- Preparado para persistencia mediante localStorage.
+
+Próximas mejoras:
+
+- Eliminar productos.
+- Modificar cantidades.
+- Persistencia local.
+- Pedido automático por WhatsApp.
+
+### Carrito Avanzado
+
+Se amplió el sistema de carrito para soportar operaciones completas de compra.
+
+Nuevas características:
+
+- Incrementar cantidad.
+- Disminuir cantidad.
+- Eliminar productos.
+- Evitar productos duplicados.
+- Cálculo automático de total.
+- Componente reutilizable CartItem.
+- Resumen de compra.
+
+Componentes:
+
+- Cart.jsx
+- CartItem.jsx
+- CartContext.jsx
+
+Preparado para:
+
+- Integración con WhatsApp.
+- Persistencia con localStorage.
+- Favoritos.
+- Checkout personalizado.
+
+### Pedido mediante WhatsApp
+
+La tienda utiliza WhatsApp como método principal de pedido.
+
+Características:
+
+- Generación automática del mensaje.
+- Inclusión de productos seleccionados.
+- Inclusión de talla y color.
+- Inclusión de cantidades.
+- Cálculo automático del total.
+- Apertura directa de WhatsApp mediante wa.me.
+
+Ventajas:
+
+- No requiere pasarela de pago.
+- Menor complejidad técnica.
+- Comunicación directa con el cliente.
+- Fácil administración de pedidos.
+

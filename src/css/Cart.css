@@ -1,0 +1,48 @@
+.cart-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+}
+
+.cart-page h1 {
+    margin-bottom: 3rem;
+}
+
+.cart-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.cart-summary {
+    margin-top: 4rem;
+    text-align: right;
+}
+
+.whatsapp-btn {
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+    border: none;
+    cursor: pointer;
+}
+
+.whatsapp-btn {
+    display: inline-block;
+
+    margin-top: 1rem;
+
+    padding: 1rem 2rem;
+
+    text-decoration: none;
+
+    background: rgb(19, 19, 12);
+    color: rgb(213, 200, 183);
+
+    letter-spacing: 0.15em;
+
+    transition: all 0.3s ease;
+}
+
+.whatsapp-btn:hover {
+    opacity: 0.85;
+}

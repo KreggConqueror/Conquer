@@ -1,0 +1,39 @@
+.cart-item {
+    display: grid;
+    grid-template-columns:
+        120px
+        1fr
+        auto
+        auto;
+
+    gap: 2rem;
+    align-items: center;
+}
+
+.cart-item-image {
+    width: 120px;
+}
+
+.cart-controls {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.cart-controls button {
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.remove-btn {
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+
+    .cart-item {
+        grid-template-columns: 1fr;
+    }
+
+}

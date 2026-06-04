@@ -1,26 +1,35 @@
 .hero {
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 77vh;
     overflow: hidden;
+    /*border-radius: 20px;*/
 }
 
 .hero-video {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    transition: opacity 1s ease;
+}
+
+.hero::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40%;
+    background: linear-gradient(transparent, black);
+    z-index: 2;
 }
 
 .hero-overlay {
     position: absolute;
-    inset: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
+    z-index: 3;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
-    background: rgba(0, 0, 0, 0.25);
     color: white;
 }
 
@@ -37,15 +46,36 @@
 }
 
 .hero-overlay button {
-    background: white;
-    color: black;
+    background: #ff4d4d;
     border: none;
-    padding: 1rem 2rem;
+    padding: 12px 28px;
+    border-radius: 25px;
+    color: white;
+    font-weight: bold;
     cursor: pointer;
-    letter-spacing: 0.2em;
-    transition: transform 0.3s ease;
+    transition: 0.3s;
 }
 
 .hero-overlay button:hover {
-    transform: translateY(-3px);
+    background: #ff1f1f;
+    transform: none;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        height: 47.4vh;
+        border-radius: 20px;
+    }
+
+    .hero-overlay {
+        top: auto;
+        bottom: 20%;
+        transform: translateX(-50%);
+    }
+
+    .hero-overlay button {
+        font-size: 14px;
+        padding: 10px 22px;
+        border-radius: 20px;
+    }
 }
